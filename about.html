@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝗜𝗞𝗜𝗚𝗔𝗜 生き甲斐 𝗟𝗘𝗚𝗔𝗖𝗬</title>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="discord-widget.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="menu-container">  
+
+        <button class="menu-btn" id="menu-btn"><strong>☰</strong></button>
+        <div class="menu-overlay" onclick="closeMenu()"></div>
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="members.html">Members</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="news.html">News</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjyB8L9kWrnWd9bgaFZAZojtJx5KCW9Il7itQAc0xYwwFybQ/viewform" target="_blank" class="menu-join">Join us!</a>
+        </nav>
+        
+    </div>
+    
+    <div class="header">
+        <div class="head-container">
+            <div class="logo-title">
+                <div class="logo-name">𝗜𝗞𝗜𝗚𝗔𝗜 生き甲斐 𝗟𝗘𝗚𝗔𝗖𝗬</div>
+            </div>
+            
+            <div class="nav-buttons">
+
+                <div class="start">
+                    <nav>
+                        <a href="index.html">Home</a>
+                        <a href="about.html" class="active">About</a>
+                        <a href="members.html">Members</a>
+                        <a href="gallery.html">Gallery</a>
+                    <a href="news.html">News</a>
+                    </nav>
+                </div>
+
+                <div class="end">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfjyB8L9kWrnWd9bgaFZAZojtJx5KCW9Il7itQAc0xYwwFybQ/viewform" target="_blank" class="join">Join us!</a>
+                    
+                </div>
+
+            </div>
+
+            
+
+            
+
+            
+        </div>
+    </div>
+
+    <!-- Discord-widget -->
+    <div class="showcard-container"> <button class="show-card" onclick="showCard()">💭</button> </div>
+    <div class="discord-widget">
+        <div class="discord-card" id="discord-card"> 
+            <div class="head">
+
+                <div class="serverName" id="serverName">⋆˚࿔ 𝒊𝒌𝒊𝒈𝒂𝒊 𝜗𝜚˚⋆</div>
+
+                    <button class="hide-card" onclick="closeCard()" id="hide">✗</button>
+
+            </div>
+
+            <div class="online-section">
+                <div class="dot-symbol">●</div>
+                <div class="online-text"> 𝑶𝒏𝒍𝒊𝒏𝒆 - <span id="online">0</span> </div>
+            </div>
+    
+
+
+            <div class="avatar-position">
+                <div class="avatars">
+
+                    <div class="avatar online">
+                        <img src="discord/profile1.webp">
+                    </div>
+
+                    <div class="avatar online">
+                        <img src="discord/profile2.webp">
+                    </div>
+
+                    <div class="avatar idle">
+                        <img src="discord/profile3.webp">
+                    </div>
+
+                    <div class="avatar idle">
+                        <img src="discord/profile4.webp">
+                    </div>
+
+                    <div class="avatar dnd">
+                        <img src="discord/profile5.webp">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="lower-part">
+                <a id="joinBtn" href="https://discord.com/invite/5m6chs7nX4" target="_blank">Join Server</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="about-page">
+
+            <div class="about-container banner">
+                <img src="banner/banner.png" class="banner-img">
+            </div>
+            
+            <div class="about-grid">
+
+                <div class="about-container">
+                    <div class="about-title">
+                        𝑨𝒃𝒐𝒖𝒕 𝒖𝒔
+                    </div>
+                    <div class="about-content">
+                        The squad founded by nabi and keign in a game called BUD on July 10, 2022, and continued it in Eggy Party from November 2023 to the present.
+                    </div>
+                    <div class="about-content">
+                        The family name inspiration comes from the word "Ikigai," a Japanese term that blends two words: "iki," meaning "to live," and "gai," meaning "reason," which translates to "a reason to live." It's a concept that encourages people to discover what truly matters to them and to live a life filled with purpose and joy.
+                    </div>
+                </div>
+
+                <div class="about-container">
+                    <div class="about-title">
+                        𝑽𝒂𝒍𝒖𝒆𝒔
+                    </div>
+                    <div class="about-content">
+                        <div class="about-items">
+                            <div class="item-bullet">✿</div>
+                            <div class="item-content">
+                                <div class="item-title">Connection</div>
+                                <div class="item-desc">Building relationships that go beyond the games we play.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-content">
+                        <div class="about-items">
+                            <div class="item-bullet">✿</div>
+                            <div class="item-content">
+                                <div class="item-title">Companionship</div>
+                                <div class="item-desc">Never having to walk the journey alone.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-content">
+                        <div class="about-items">
+                            <div class="item-bullet">✿</div>
+                            <div class="item-content">
+                                <div class="item-title">Positivity</div>
+                                <div class="item-desc">No drama, no toxicity. We lift each other up, always.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="about-container timeline-container">
+                <div class="about-title">
+                    𝑻𝒊𝒎𝒆𝒍𝒊𝒏𝒆
+                </div>
+                <div class="about-content">
+                    <div class="about-items">
+                            <div class="item-bullet">✿</div>
+                            <div class="item-content">
+                                <div class="item-title">2022 - Ikigai Founded</div>
+                                <div class="item-desc">Nabi and Keign started a small squad in BUD, bringing people together through fun and friendship.</div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-items">
+                            <div class="item-bullet">✿</div>
+                            <div class="item-content">
+                                <div class="item-title">2023 - Bonds Beyond the Game</div>
+                                <div class="item-desc">More members joined, and the squad built lasting friendships across BUD, Jungo Jam, Among Us, and Bondee.</div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-items">
+                            <div class="item-bullet">✿</div>
+                            <div class="item-content">
+                                <div class="item-title">2024 - New Game, Same Family</div>
+                                <div class="item-desc">The family moved to Eggy Party, welcomed new faces, and created even more memories together.</div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-items">
+                            <div class="item-bullet">✿</div>
+                            <div class="item-content">
+                                <div class="item-title">2025 - A Journey Without Limits</div>
+                                <div class="item-desc">The journey expanded to Minecraft, Roblox, Mobile Legends, and many other games, sharing every adventure along the way.</div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-items">
+                            <div class="item-bullet">✿</div>
+                            <div class="item-content">
+                                <div class="item-title">Present - Legacy Continues</div>
+                                <div class="item-desc">Today, the family continues to grow through every game they play, proving that while games may change, true friendships remain.</div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="about-grid">
+                <div class="about-container">
+                    <div class="about-title">
+                        𝑭𝒐𝒖𝒏𝒅𝒆𝒓𝒔
+                    </div>
+                    <div class="about-content">
+                        <div class="about-content-grid">
+                            <div class="about-card">
+                                <div class="about-img">
+                                    <img src="profiles/nabi.png">
+                                </div>
+                                
+                                <div class="about-body">
+                                    <div class="about-name">𝒊𝒌𝒈_𝒏𝒂𝒃𝒊</div>
+                                    <div class="about-role">𝒇𝒐𝒖𝒏𝒅𝒆𝒓</div>
+                                </div>
+                            </div>
+                            <div class="about-card">
+                                <div class="about-img">
+                                    <img src="profiles/dongdong1.png">
+                                </div>
+                                <div class="about-body">
+                                    <div class="about-name">𝒊𝒌𝒈_𝒌𝒆𝒊𝒈𝒏</div>
+                                    <div class="about-role">𝒇𝒐𝒖𝒏𝒅𝒆𝒓</div>
+                                    <div class="about-socials"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="about-container">
+                    <div class="about-title">
+                        𝑪𝒐𝒖𝒏𝒄𝒊𝒍𝒔
+                    </div>
+                    <div class="about-content">
+                        <div class="about-content-grid">
+                            <div class="about-card">
+                                <div class="about-img">
+                                    <img src="profiles/dongdong2.png">
+                                </div>
+                                <div class="about-body">
+                                    <div class="about-name">𝒊𝒌𝒈_𝒓𝒆𝒂𝒉𝒏</div>
+                                    <div class="about-role">𝒂𝒅𝒎𝒊𝒏</div>
+                                </div>
+                            </div>
+                            <div class="about-card">
+                                <div class="about-img">
+                                    <img src="profiles/speedy.png">
+                                </div>
+                                <div class="about-body">
+                                    <div class="about-name">𝒊𝒌𝒈_𝒔𝒑𝒆𝒆𝒅𝒚</div>
+                                    <div class="about-role">𝒂𝒅𝒎𝒊𝒏</div>
+                                    <div class="about-socials"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-container">
+                    <div class="about-title">
+                        𝑪𝒐𝒏𝒏𝒆𝒄𝒕𝒊𝒐𝒏𝒔
+                    </div>
+                    <div class="about-connections-grid">
+                        <div class="about-connections">
+                            <img class="about-connections-img" src="apps/discord.jpg">
+                            <a class="about-connections-link" href="https://discord.com/invite/5m6chs7nX4" target="_blank">⋆˚࿔ 𝒊𝒌𝒊𝒈𝒂𝒊 𝜗𝜚˚⋆</a>
+                        </div>
+                        <div class="about-connections">
+                            <img class="about-connections-img" src="apps/tiktok.avif">
+                            <a class="about-connections-link" href="https://www.tiktok.com/@ikigai.legacy?_t=ZS-8wNGGbBKXw1&_r=1" target="_blank">@𝒊𝒌𝒊𝒈𝒂𝒊.𝒍𝒆𝒈𝒂𝒄𝒚</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-container">
+                    <div class="about-title">
+                        𝑮𝒂𝒎𝒆 𝑪𝒐𝒍𝒍𝒆𝒄𝒕𝒊𝒐𝒏𝒔
+                    </div>
+                    <div class="about-games-grid">
+                        <img class="about-games" src="apps/bud.jpg">
+                        <img class="about-games" src="apps/eggyparty.png">
+                        <img class="about-games" src="apps/minecraft.webp">
+                        <img class="about-games" src="apps/Heartopia.webp">
+                        <img class="about-games" src="apps/roblox.webp">
+                        <img class="about-games" src="apps/among-us.png">
+                        <img class="about-games" src="apps/MLBB.jpg">
+                        <div class="about-games">+ 𝒎𝒐𝒓𝒆</div>
+                    </div>
+                </div>
+
+            
+
+
+            </div>
+
+            
+            
+        </div>
+
+        <div class="footer">
+            © 2026 𝗜𝗞𝗜𝗚𝗔𝗜 生き甲斐 𝗟𝗘𝗚𝗔𝗖𝗬. All  rights reserved.
+        </div>
+    </div>
+
+    
+
+  <script src="general.js"></script>
+</body>
+</html>
