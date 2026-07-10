@@ -42,8 +42,9 @@ const profiles = [{
     games: [
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_keign" },
         {name: "𝒓𝒐𝒃𝒍𝒐𝒙", icon: "apps/roblox.webp", id: "@keignnx" },
-        {name: "𝒃𝒖𝒅", icon: "apps/bud.jpg", id: "@keign_ikigai" },
-        {name: "𝒎𝒊𝒏𝒆𝒄𝒓𝒂𝒇𝒕", icon: "apps/minecraft.webp", id: "@keignnx" }
+        {name: "𝒃𝒖𝒅", icon: "apps/bud.jpg", id: "@ingrid_ikigai" },
+        {name: "𝒎𝒊𝒏𝒆𝒄𝒓𝒂𝒇𝒕", icon: "apps/minecraft.webp", id: "@keignnx" },
+        {name: "𝒄𝒐𝒅𝒎", icon: "apps/codm.webp", id: "@keignxha" }
     ],
     connections: [
         {name: "𝒅𝒊𝒔𝒄𝒐𝒓𝒅", icon: "apps/discord.jpg", id: "@keign." },
@@ -70,12 +71,22 @@ const profiles = [{
     games: [
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_形無" },
         {name: "𝒓𝒐𝒃𝒍𝒐𝒙", icon: "apps/roblox.webp", id: "@Reahn_26" },
-        {name: "𝒎𝒊𝒏𝒆𝒄𝒓𝒂𝒇𝒕", icon: "apps/minecraft.webp", id: "@Klyaaaaa2874" }
+        {name: "𝒎𝒊𝒏𝒆𝒄𝒓𝒂𝒇𝒕", icon: "apps/minecraft.webp", id: "@Klyaaaaa2874" },
+        {name: "𝒎𝒍𝒃𝒃", icon: "apps/MLBB.jpg", id: "@Reahn" },
+        {name: "𝒄𝒐𝒅𝒎", icon: "apps/codm.webp", id: "@Reahn" },
+        {name: "𝒗𝒂𝒍𝒐𝒓𝒂𝒏𝒕", icon: "apps/valo.jpg", id: "@Reahn" }
     ],
     connections: [
         {name: "𝒅𝒊𝒔𝒄𝒐𝒓𝒅", icon: "apps/discord.jpg", id: "@msg_edb" },
         {name: "𝒕𝒊𝒌𝒕𝒐𝒌", icon: "apps/tiktok.avif", id: "@ikigai_reahn" }
-    ]
+    ],
+    music: {
+        title: "𝑵𝒐𝒃𝒐𝒅𝒚 𝒈𝒆𝒕𝒔 𝒎𝒆",
+        artist: "@𝒔𝒛𝒂",
+        cover: "spotify/icons/reahn.jpg",
+        mp3: "spotify/musics/reahn.mp3",
+        spotify: "https://open.spotify.com/track/5Y35SjAfXjjG0sFQ3KOxmm?si=7lkRvvQmTaueb37E44cCzg&utm_source=copy-link"
+    }
 },{
     dataid: '4',
     image: 'profiles/speedy.png',
@@ -184,18 +195,20 @@ const profiles = [{
         {name: "𝒃𝒖𝒅", icon: "apps/bud.jpg", id: "@jintar_ikigai" },
         {name: "𝒉𝒆𝒂𝒓𝒕𝒐𝒑𝒊𝒂", icon: "apps/Heartopia.webp", id: "UID:1jjw3nfs" },
         {name: "𝒎𝒊𝒏𝒆𝒄𝒓𝒂𝒇𝒕", icon: "apps/minecraft.webp", id: "@jintaaar" },
-        {name: "𝒂𝒖𝒅𝒊𝒕𝒊𝒐𝒏", icon: "apps/audi.jpg", id: "@ikg_jintar" }
+        {name: "𝒕𝒐𝒖𝒄𝒉", icon: "apps/touch.png", id: "@ikg_jintar" },
+        {name: "𝒂𝒖𝒅𝒊𝒕𝒊𝒐𝒏", icon: "apps/audi.jpg", id: "@ikg_jintar" },
+        {name: "𝒊𝒅𝒂𝒕𝒆", icon: "apps/idate.ico", id: "@ikg_jintar" }
     ],
     connections: [
         {name: "𝒅𝒊𝒔𝒄𝒐𝒓𝒅", icon: "apps/discord.jpg", id: "@jintaaar" },
-        {name: "𝒕𝒊𝒌𝒕𝒐𝒌", icon: "apps/tiktok.avif", id: "@jintaaar"}
+        {name: "𝒕𝒊𝒌𝒕𝒐𝒌", icon: "apps/tiktok.avif", id: "@ikg_jintar"}
     ],
     music: {
-        title: ".",
+        title: "˚ ༘♡ ⋆｡˚๋ ࣭ ⭑๋ ࣭ ⭑",
         artist: "@𝒋𝒊𝒏𝒕𝒂𝒂𝒂𝒓",
         cover: "spotify/icons/jintar.jpg",
         mp3: "spotify/musics/jintar.mp3",
-        spotify: "https://open.spotify.com/playlist/3u2PKbtg65upuf48UYtpOb"
+        spotify: "https://open.spotify.com/playlist/7c8SXiegjtc7YKyGEkZtiY?si=PDN6xrQuRkCXxHlFU0NHow"
     }
 },{
     dataid: '10',
