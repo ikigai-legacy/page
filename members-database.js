@@ -160,8 +160,21 @@ const profiles = [{
     games: [
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_saggy" },
         {name: "𝒓𝒐𝒃𝒍𝒐𝒙", icon: "apps/roblox.webp", id: "@ishiiimerie" },
-        {name: "𝒎𝒊𝒏𝒆𝒄𝒓𝒂𝒇𝒕", icon: "apps/minecraft.webp", id: "@ishiiimerie" }
-    ]
+        {name: "𝒎𝒊𝒏𝒆𝒄𝒓𝒂𝒇𝒕", icon: "apps/minecraft.webp", id: "@ishiiimerie" },
+        {name: "𝒎𝒍𝒃𝒃", icon: "apps/MLBB.jpg", id: "@saggy" },
+        {name: "𝒉𝒐𝒌", icon: "apps/hok.jpg", id: "@saggy" },
+    ],
+    connections: [
+        {name: "𝒅𝒊𝒔𝒄𝒐𝒓𝒅", icon: "apps/discord.jpg", id: "@saggitariously" },
+        {name: "𝒕𝒊𝒌𝒕𝒐𝒌", icon: "apps/tiktok.avif", id: "@saggitariously_" }
+    ],
+    music: {
+        title: "^^",
+        artist: "@𝒊𝒔𝒉𝒊𝒊𝒎𝒆𝒓𝒊𝒆",
+        cover: "spotify/icons/saggy.jpg",
+        mp3: "spotify/musics/saggy.mp3",
+        spotify: "https://open.spotify.com/playlist/570WVBLcoyfqSF2hj8huWS?si=NWUSZvweRseoiyTlazD_dA"
+    }
 },{
     dataid: '8',
     image: 'profiles/dongdong2.png',
@@ -204,11 +217,11 @@ const profiles = [{
         {name: "𝒕𝒊𝒌𝒕𝒐𝒌", icon: "apps/tiktok.avif", id: "@ikg_jintar"}
     ],
     music: {
-        title: "˚ ༘♡ ⋆｡˚๋ ࣭ ⭑๋ ࣭ ⭑",
+        title: ".",
         artist: "@𝒋𝒊𝒏𝒕𝒂𝒂𝒂𝒓",
         cover: "spotify/icons/jintar.jpg",
         mp3: "spotify/musics/jintar.mp3",
-        spotify: "https://open.spotify.com/playlist/7c8SXiegjtc7YKyGEkZtiY?si=PDN6xrQuRkCXxHlFU0NHow"
+        spotify: "https://open.spotify.com/playlist/3u2PKbtg65upuf48UYtpOb?si=faOnaVwsSoC9H9yfzQqseQ"
     }
 },{
     dataid: '10',
