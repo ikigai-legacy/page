@@ -98,18 +98,36 @@ const folders = {
         ]
     },
     5: {
-        title: "𝑶𝒕𝒉𝒆𝒓 𝑮𝒂𝒎𝒆𝒔",
-        desc: "𝟗 𝒑𝒉𝒐𝒕𝒐𝒔 | 𝟎 𝒗𝒊𝒅𝒆𝒐",
+        title: "𝑹𝒐𝒃𝒍𝒐𝒙",
+        desc: "𝟖 𝒑𝒉𝒐𝒕𝒐𝒔 | 𝟎 𝒗𝒊𝒅𝒆𝒐",
         items: [
-            { type: "image", src: "gallery/05/01.jpg" },
-            { type: "image", src: "gallery/05/02.jpg" },
-            { type: "image", src: "gallery/05/03.jpg" },
-            { type: "image", src: "gallery/05/04.jpg" },
-            { type: "image", src: "gallery/05/05.jpg" },
-            { type: "image", src: "gallery/05/06.jpg" },
+            { type: "image", src: "gallery/05/01.png" },
+            { type: "image", src: "gallery/05/02.png" },
+            { type: "image", src: "gallery/05/03.png" },
+            { type: "image", src: "gallery/05/04.png" },
+            { type: "image", src: "gallery/05/05.png" },
+            { type: "image", src: "gallery/05/06.png" },
             { type: "image", src: "gallery/05/07.png" },
-            { type: "image", src: "gallery/05/08.png" },
-            { type: "image", src: "gallery/05/09.png" }
+            { type: "image", src: "gallery/05/08.png" }
+        ]
+    },
+    6: {
+        title: "𝑯𝒆𝒂𝒓𝒕𝒐𝒑𝒊𝒂",
+        desc: "𝟔 𝒑𝒉𝒐𝒕𝒐𝒔 | 𝟎 𝒗𝒊𝒅𝒆𝒐",
+        items: [
+            { type: "image", src: "gallery/06/01.jpg" },
+            { type: "image", src: "gallery/06/02.jpg" },
+            { type: "image", src: "gallery/06/03.jpg" },
+            { type: "image", src: "gallery/06/04.jpg" },
+            { type: "image", src: "gallery/06/05.jpg" },
+            { type: "image", src: "gallery/06/06.jpg" }
+        ]
+    },
+    7: {
+        title: "𝑹𝒐𝒃𝒍𝒐𝒙",
+        desc: "𝟏 𝒑𝒉𝒐𝒕𝒐𝒔 | 𝟎 𝒗𝒊𝒅𝒆𝒐",
+        items: [
+            { type: "image", src: "gallery/07/01.png" }
         ]
     }
 };

@@ -941,16 +941,60 @@ const profiles = [{
     
     games: [
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_habie" },
+        {name: "𝒓𝒐𝒃𝒍𝒐𝒙", icon: "apps/roblox.webp", id: "@strawberrykn0ts" },
         {name: "𝒃𝒖𝒅", icon: "apps/bud.jpg", id: "@habie_ikigai" }
     ]
 },{
     dataid: '56',
+    image: 'profiles/dongdong1.png',
+    name: '𝒊𝒌𝒈_𝒌𝒂𝒊𝒗𝒐𝒓',
+    dataname: 'ikg_kaivor',
+    role: '𝒎𝒆𝒎𝒃𝒆𝒓',
+    birthday: '𝒐𝒄𝒕𝒐𝒃𝒆𝒓 𝟐𝟑',
+    databirthday: '2022-10-23',
+    joined: '𝒋𝒖𝒍𝒚 𝟐𝟎𝟐𝟐',
+    datajoined: '2022-07-01',
+    
+    games: [
+        {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_kaivor" },
+        {name: "𝒓𝒐𝒃𝒍𝒐𝒙", icon: "apps/roblox.webp", id: "@renzified_0" },
+        {name: "𝒃𝒖𝒅", icon: "apps/bud.jpg", id: "@akashi_ikigai" }
+    ],
+    connections: [
+        {name: "𝒅𝒊𝒔𝒄𝒐𝒓𝒅", icon: "apps/discord.jpg", id: "@rnzsmt_" },
+        {name: "𝒕𝒊𝒌𝒕𝒐𝒌", icon: "apps/tiktok.avif", id: "@rnzsmt" }
+    ],
+    music: {
+        title: "𝑴𝒆𝒓𝒓𝒚 𝑪𝒉𝒓𝒊𝒔𝒕𝒎𝒂𝒔, 𝒊 𝒎𝒊𝒔𝒔 𝒚𝒐𝒖",
+        artist: "@𝒂𝒍𝒆𝒙 𝒄𝒉𝒓𝒊𝒄𝒉𝒕𝒐𝒏",
+        cover: "spotify/icons/kaivor.jpg",
+        mp3: "spotify/musics/kaivor.mp3",
+        spotify: "https://open.spotify.com/track/0XYALktGbnHJ1TdW0Oz5KN?si=c015a3ede4bf41bb"
+    }
+},{
+    dataid: '57',
+    image: 'profiles/dongdong1.png',
+    name: '𝒊𝒌𝒈_𝒘𝒂𝒃𝒂𝒎',
+    dataname: 'ikg_wabam',
+    role: '𝒎𝒆𝒎𝒃𝒆𝒓',
+    birthday: '*',
+    databirthday: '2022-12-31',
+    joined: '𝒋𝒖𝒍𝒚 𝟐𝟎𝟐𝟐',
+    datajoined: '2022-07-01',
+    
+    games: [
+        {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_wabam" },
+        {name: "𝒓𝒐𝒃𝒍𝒐𝒙", icon: "apps/roblox.webp", id: "@Asterion010" },
+        {name: "𝒃𝒖𝒅", icon: "apps/bud.jpg", id: "@wabam_ikigai" }
+    ]
+},{
+    dataid: '58',
     image: 'profiles/paw.png',
     name: '𝒊𝒌𝒈_𝒑𝒂𝒘',
     dataname: 'ikg_paw',
     role: '𝒎𝒆𝒎𝒃𝒆𝒓',
-    birthday: '*',
-    databirthday: '2022-12-31',
+    birthday: '𝒋𝒖𝒍𝒚 𝟕',
+    databirthday: '2022-07-07',
     joined: '𝒋𝒖𝒍𝒚 𝟐𝟎𝟐𝟐',
     datajoined: '2022-07-01',
     
@@ -959,7 +1003,7 @@ const profiles = [{
         {name: "𝒃𝒖𝒅", icon: "apps/bud.jpg", id: "@paw_ikigai" }
     ]
 },{
-    dataid: '57',
+    dataid: '59',
     image: 'profiles/pier.png',
     name: '𝒊𝒌𝒈_𝒑𝒊𝒆𝒓',
     dataname: 'ikg_pier',
@@ -974,7 +1018,7 @@ const profiles = [{
         {name: "𝒃𝒖𝒅", icon: "apps/bud.jpg", id: "@pier_ikigai" }
     ]
 },{
-    dataid: '58',
+    dataid: '60',
     image: 'profiles/yhumx.png',
     name: '𝒊𝒌𝒈_𝒚𝒉𝒖𝒎𝒙',
     dataname: 'ikg_yhumx',
@@ -989,7 +1033,7 @@ const profiles = [{
         {name: "𝒃𝒖𝒅", icon: "apps/bud.jpg", id: "@aimi_ikigai" }
     ]
 },{
-    dataid: '59',
+    dataid: '61',
     image: 'profiles/xeno.png',
     name: '𝒊𝒌𝒈_𝒙𝒆𝒏𝒐',
     dataname: 'ikg_xeno',
@@ -1001,10 +1045,11 @@ const profiles = [{
     
     games: [
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_xino" },
+        {name: "𝒓𝒐𝒃𝒍𝒐𝒙", icon: "apps/roblox.webp", id: "@OverDr1nk_pH" },
         {name: "𝒃𝒖𝒅", icon: "apps/bud.jpg", id: "@xeno_ikigai" }
     ]
 },{
-    dataid: '60',
+    dataid: '62',
     image: 'profiles/lina.png',
     name: '𝒊𝒌𝒈_𝒍𝒊𝒏𝒂',
     dataname: 'ikg_lina',
@@ -1019,7 +1064,7 @@ const profiles = [{
         {name: "𝒃𝒖𝒅", icon: "apps/bud.jpg", id: "@lian_ikigai" }
     ]
 },{
-    dataid: '61',
+    dataid: '63',
     image: 'profiles/koa.png',
     name: '𝒊𝒌𝒈_𝒌𝒐𝒂',
     dataname: 'ikg_koa',
@@ -1030,10 +1075,11 @@ const profiles = [{
     datajoined: '2022-07-01',
 
     games: [
+        {name: "𝒓𝒐𝒃𝒍𝒐𝒙", icon: "apps/roblox.webp", id: "@koa_ikigai" },
         {name: "𝒃𝒖𝒅", icon: "apps/bud.jpg", id: "@koa_ikigai" }
     ]
 },{
-    dataid: '62',
+    dataid: '64',
     image: 'profiles/khayyi.png',
     name: '𝒊𝒌𝒈_𝒌𝒉𝒂𝒚𝒚𝒊',
     dataname: 'ikg_khayyi',
@@ -1047,7 +1093,7 @@ const profiles = [{
         {name: "𝒃𝒖𝒅", icon: "apps/bud.jpg", id: "@khayyi_ikigai" }
     ]
 },{
-    dataid: '63',
+    dataid: '65',
     image: 'profiles/klerh.png',
     name: '𝒊𝒌𝒈_𝒌𝒍𝒆𝒓𝒉',
     dataname: 'ikg_klerh',
@@ -1062,7 +1108,7 @@ const profiles = [{
         {name: "𝒉𝒆𝒂𝒓𝒕𝒐𝒑𝒊𝒂", icon: "apps/Heartopia.webp", id: "UID:5s774y9j" }
     ]
 },{
-    dataid: '64',
+    dataid: '66',
     image: 'profiles/vera.png',
     name: '𝒊𝒌𝒈_𝒗𝒆𝒓𝒂',
     dataname: 'ikg_vera',
@@ -1076,7 +1122,7 @@ const profiles = [{
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_アイカ" }
     ]
 },{
-    dataid: '65',
+    dataid: '67',
     image: 'profiles/shai.png',
     name: '𝒊𝒌𝒈_𝒔𝒉𝒂𝒊',
     dataname: 'ikg_shai',
@@ -1090,7 +1136,7 @@ const profiles = [{
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_shai" }
     ]
 },{
-    dataid: '66',
+    dataid: '68',
     image: 'profiles/shaii.png',
     name: '𝒊𝒌𝒈_𝒔𝒉𝒂𝒊𝒊.',
     dataname: 'ikg_shaii',
@@ -1104,7 +1150,7 @@ const profiles = [{
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_shàii." }
     ]
 },{
-    dataid: '67',
+    dataid: '69',
     image: 'profiles/cyril.png',
     name: '𝒊𝒌𝒈_𝒄𝒚𝒓𝒊𝒍',
     dataname: 'ikg_cyril',
@@ -1118,7 +1164,7 @@ const profiles = [{
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@#Dikg_Cyril" }
     ]
 },{
-    dataid: '68',
+    dataid: '70',
     image: 'profiles/keirah.png',
     name: '𝒊𝒌𝒈_𝒌𝒆𝒊𝒓𝒂𝒉',
     dataname: 'ikg_keirah',
@@ -1132,7 +1178,7 @@ const profiles = [{
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_Keirah" }
     ]
 },{
-    dataid: '69',
+    dataid: '71',
     image: 'profiles/zsasha.png',
     name: '𝒊𝒌𝒈_𝒛𝒔𝒂𝒔𝒉𝒂',
     dataname: 'ikg_zsasha',
@@ -1146,7 +1192,7 @@ const profiles = [{
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_zsasha" }
     ]
 },{
-    dataid: '70',
+    dataid: '72',
     image: 'profiles/cherry.png',
     name: '𝒊𝒌𝒈_𝒄𝒉𝒆𝒓𝒓𝒚',
     dataname: 'ikg_cherry',
@@ -1160,7 +1206,7 @@ const profiles = [{
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_cherry" }
     ]
 },{
-    dataid: '71',
+    dataid: '73',
     image: 'profiles/aria.png',
     name: '𝒊𝒌𝒈_𝒂𝒓𝒊𝒂',
     dataname: 'ikg_aria',
@@ -1174,7 +1220,7 @@ const profiles = [{
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_aria." }
     ]
 },{
-    dataid: '72',
+    dataid: '74',
     image: 'profiles/vivy.png',
     name: '𝒊𝒌𝒈_𝒗𝒊𝒗𝒚',
     dataname: 'ikg_vivy',
@@ -1188,7 +1234,7 @@ const profiles = [{
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_vivy" }
     ]
 },{
-    dataid: '73',
+    dataid: '75',
     image: 'profiles/lele.png',
     name: '𝒊𝒌𝒈_𝒍𝒆𝒍𝒆',
     dataname: 'ikg_lele',
@@ -1202,7 +1248,7 @@ const profiles = [{
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_lele" }
     ]
 },{
-    dataid: '74',
+    dataid: '76',
     image: 'profiles/dongdong1.png',
     name: '𝒊𝒌𝒈_𝟏𝟔𝟏',
     dataname: 'ikg_161',
@@ -1216,7 +1262,7 @@ const profiles = [{
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_161" }
     ]
 },{
-    dataid: '75',
+    dataid: '77',
     image: 'profiles/wwl.png',
     name: '𝒊𝒌𝒈_𝒘𝒘𝒍',
     dataname: 'ikg_wwl',
@@ -1230,7 +1276,7 @@ const profiles = [{
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_wwl" }
     ]
 },{
-    dataid: '76',
+    dataid: '78',
     image: 'profiles/hami.png',
     name: '𝒊𝒌𝒈_𝒉𝒂𝒎𝒊',
     dataname: 'ikg_hami',
@@ -1244,7 +1290,7 @@ const profiles = [{
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_hami" }
     ]
 },{
-    dataid: '77',
+    dataid: '79',
     image: 'profiles/nakyum.png',
     name: '𝒊𝒌𝒈_𝒏𝒂𝒌𝒚𝒖𝒎',
     dataname: 'ikg_nakyum',
@@ -1258,7 +1304,7 @@ const profiles = [{
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_nakyum" }
     ]
 },{
-    dataid: '78',
+    dataid: '80',
     image: 'profiles/jiroshi.png',
     name: '𝒊𝒌𝒈_𝒋𝒊𝒓𝒐𝒔𝒉𝒊',
     dataname: 'ikg_jiroshi',
@@ -1268,7 +1314,7 @@ const profiles = [{
     joined: '𝒐𝒄𝒕𝒐𝒃𝒆𝒓 𝟐𝟎𝟐𝟑',
     datajoined: '2023-10-16',
 },{
-    dataid: '79',
+    dataid: '81',
     image: 'profiles/shopao.png',
     name: '𝒊𝒌𝒈_𝒔𝒉𝒐𝒑𝒂𝒐',
     dataname: 'ikg_shopao',
@@ -1282,7 +1328,7 @@ const profiles = [{
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_shopao" }
     ]
 },{
-    dataid: '80',
+    dataid: '82',
     image: 'profiles/heaven.png',
     name: '𝒊𝒌𝒈_𝒉𝒆𝒂𝒗𝒆𝒏',
     dataname: 'ikg_heaven',
@@ -1296,7 +1342,7 @@ const profiles = [{
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_heaven" }
     ]
 },{
-    dataid: '81',
+    dataid: '83',
     image: 'profiles/gean.png',
     name: '𝒊𝒌𝒈_𝒈𝒆𝒂𝒏',
     dataname: 'ikg_gean',
@@ -1310,7 +1356,7 @@ const profiles = [{
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_geanx" }
     ]
 },{
-    dataid: '82',
+    dataid: '84',
     image: 'profiles/kael.png',
     name: '𝒊𝒌𝒈_𝒌𝒂𝒆𝒍',
     dataname: 'ikg_kael',
@@ -1324,7 +1370,7 @@ const profiles = [{
         {name: "𝒉𝒆𝒂𝒓𝒕𝒐𝒑𝒊𝒂", icon: "apps/Heartopia.webp", id: "UID:1z6a3shr" }
     ]
 },{
-    dataid: '83',
+    dataid: '85',
     image: 'profiles/moon.png',
     name: '𝒊𝒌𝒈_𝒎𝒐𝒐𝒏',
     dataname: 'ikg_moon',
@@ -1338,7 +1384,7 @@ const profiles = [{
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_moon" },
     ]
 },{
-    dataid: '84',
+    dataid: '86',
     image: 'profiles/litberar.png',
     name: '𝒊𝒌𝒈_𝒍𝒊𝒕𝒃𝒆𝒓𝒂𝒓',
     dataname: 'ikg_litberar',
