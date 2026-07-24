@@ -221,7 +221,7 @@ const profiles = [{
         artist: "@𝒋𝒊𝒏𝒕𝒂𝒂𝒂𝒓",
         cover: "spotify/icons/jintar.jpg",
         mp3: "spotify/musics/jintar.mp3",
-        spotify: "https://open.spotify.com/playlist/3u2PKbtg65upuf48UYtpOb?si=faOnaVwsSoC9H9yfzQqseQ"
+        spotify: "https://open.spotify.com/playlist/5ug8DfGCEVkwNhPINQ7hHz?si=iGlIC9NjTSeKisIp86WO3g"
     }
 },{
     dataid: '10',
