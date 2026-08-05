@@ -145,7 +145,14 @@ const profiles = [{
     connections: [
         {name: "𝒅𝒊𝒔𝒄𝒐𝒓𝒅", icon: "apps/discord.jpg", id: "@liliith_30" },
         {name: "𝒕𝒊𝒌𝒕𝒐𝒌", icon: "apps/tiktok.avif", id: "@ikg_lilith" }
-    ]
+    ],
+    music: {
+        title: "𝑻𝒆𝒍𝒍 𝑴𝒆 𝑾𝒉𝒆𝒓𝒆 𝑰𝒕 𝑯𝒖𝒓𝒕𝒔",
+        artist: "@𝑴𝒀𝑴𝑷",
+        cover: "spotify/icons/lilith.jpg",
+        mp3: "spotify/musics/lilith.mp3",
+        spotify: "https://open.spotify.com/track/4v8P0GLVWoFojZJgecPGcm?si=3Vy9dHhCR72IDAkF-jy7VQ&utm_source=copy-link"
+    }
 },{
     dataid: '7',
     image: 'profiles/dongdong1.png',
@@ -328,19 +335,17 @@ const profiles = [{
     ]
 },{
     dataid: '16',
-    image: 'profiles/kazumi.png',
-    name: '𝒊𝒌𝒈_𝒌𝒂𝒛𝒖𝒎𝒊',
-    dataname: 'ikg_kazumi',
+    image: 'profiles/dongdong1.png',
+    name: '𝒊𝒌𝒈_𝒎𝒐𝒐𝒏𝒊𝒆',
+    dataname: 'ikg_moonie',
     role: '𝒎𝒆𝒎𝒃𝒆𝒓',
-    birthday: '𝒋𝒂𝒏𝒖𝒂𝒓𝒚 𝟏𝟔',
-    databirthday: '2022-01-16',
-    joined: '𝒋𝒖𝒍𝒚 𝟐𝟎𝟐𝟒',
-    datajoined: '2024-07-22',
+    birthday: '𝒏𝒐𝒗𝒆𝒎𝒃𝒆𝒓 𝟑',
+    databirthday: '2022-11-03',
+    joined: '𝒂𝒖𝒈𝒖𝒔𝒕 𝟐𝟎𝟐𝟔',
+    datajoined: '2026-08-02',
     
     games: [
-        {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_kazumi^" },
-        {name: "𝒉𝒆𝒂𝒓𝒕𝒐𝒑𝒊𝒂", icon: "apps/Heartopia.webp", id: "UID:24tr4y2p" }
-
+        {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_moonie" },
     ]
 },{
     dataid: '17',
@@ -451,9 +456,9 @@ const profiles = [{
     ],
 },{
     dataid: '23',
-    image: 'profiles/hajime.png',
-    name: '𝒊𝒌𝒈_𝒉𝒂𝒋𝒊𝒎𝒆',
-    dataname: 'ikg_hajime',
+    image: 'profiles/ney.png',
+    name: '𝒊𝒌𝒈_𝒏𝒆𝒚',
+    dataname: 'ikg_ney',
     role: '𝒎𝒆𝒎𝒃𝒆𝒓',
     birthday: '𝒎𝒂𝒓𝒄𝒉 𝟏𝟗',
     databirthday: '2022-03-19',
@@ -468,7 +473,14 @@ const profiles = [{
     connections: [
         {name: "𝒅𝒊𝒔𝒄𝒐𝒓𝒅", icon: "apps/discord.jpg", id: "@cy_hajime_13672" },
         {name: "𝒕𝒊𝒌𝒕𝒐𝒌", icon: "apps/tiktok.avif", id: "@ikg_ney" }
-    ]
+    ],
+    music: {
+        title: "𝑫𝑨𝑰𝑺𝑰𝑬𝑺",
+        artist: "@𝒋𝒖𝒔𝒕𝒊𝒏𝒆 𝒃𝒊𝒆𝒃𝒆𝒓",
+        cover: "spotify/icons/ney.jpg",
+        mp3: "spotify/musics/ney.mp3",
+        spotify: "https://open.spotify.com/track/5BZsQlgw21vDOAjoqkNgKb?si=6a284018cae946c7"
+    }
 },{
     dataid: '24',
     image: 'profiles/scara.png',
@@ -524,8 +536,22 @@ const profiles = [{
     
     games: [
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_michiee" },
-        {name: "𝒉𝒆𝒂𝒓𝒕𝒐𝒑𝒊𝒂", icon: "apps/Heartopia.webp", id: "UID:1bms5qbw" }
-    ]
+        {name: "𝒓𝒐𝒃𝒍𝒐𝒙", icon: "apps/roblox.webp", id: "@Robloxianm7d2q1n6q" },
+        {name: "𝒉𝒆𝒂𝒓𝒕𝒐𝒑𝒊𝒂", icon: "apps/Heartopia.webp", id: "UID:1bms5qbw" },
+        {name: "𝒎𝒊𝒏𝒆𝒄𝒓𝒂𝒇𝒕", icon: "apps/minecraft.webp", id: "@Michiieeeeee" },
+        {name: "𝒎𝒍𝒃𝒃", icon: "apps/MLBB.jpg", id: "ID: 600685587" },
+    ],
+    connections: [
+        {name: "𝒅𝒊𝒔𝒄𝒐𝒓𝒅", icon: "apps/discord.jpg", id: "@michie_e" },
+        {name: "𝒕𝒊𝒌𝒕𝒐𝒌", icon: "apps/tiktok.avif", id: "@michiee_e" }
+    ],
+    music: {
+        title: "𝑷𝒂𝒍𝒂𝒚𝒐 𝑺𝒂 𝑴𝒖𝒏𝒅𝒐",
+        artist: "@𝒋𝒐𝒍𝒊𝒂𝒏𝒏𝒆, 𝒂𝒓𝒕𝒉𝒖𝒓 𝒏𝒆𝒓𝒚",
+        cover: "spotify/icons/michie.jpg",
+        mp3: "spotify/musics/michie.mp3",
+        spotify: "https://open.spotify.com/track/4FVZYiCvdLIX8NpcY0lzda?si=4e41a6ba931142a1"
+    }
 },{
     dataid: '28',
     image: 'profiles/jewel.png',
@@ -540,7 +566,17 @@ const profiles = [{
     games: [
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_jewel" },
         {name: "𝒉𝒆𝒂𝒓𝒕𝒐𝒑𝒊𝒂", icon: "apps/Heartopia.webp", id: "UID:1yqf62tf" }
-    ]
+    ],
+    connections: [
+        {name: "𝒕𝒊𝒌𝒕𝒐𝒌", icon: "apps/tiktok.avif", id: "@cutiee_jewel" }
+    ],
+    music: {
+        title: "𝟏𝟐:𝟓𝟏",
+        artist: "@𝒌𝒓𝒊𝒔𝒔𝒚 & 𝒆𝒓𝒊𝒄𝒌𝒂",
+        cover: "spotify/icons/jewel.jpg",
+        mp3: "spotify/musics/jewel.mp3",
+        spotify: "https://open.spotify.com/track/1FHCU1rDAeaPsBW9byjJ0Q?si=deb720401de245e7"
+    }
 },{
     dataid: '29',
     image: 'profiles/meowbun.png',
@@ -754,8 +790,21 @@ const profiles = [{
     datajoined: '2024-09-01',
     
     games: [
-        {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_Jnicee" }
-    ]
+        {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_Jnicee" },
+        {name: "𝒓𝒐𝒃𝒍𝒐𝒙", icon: "apps/roblox.webp", id: "@cuitie477" },
+        {name: "𝒎𝒍𝒃𝒃", icon: "apps/MLBB.jpg", id: "ID: 1257894668" }
+    ],
+    connections: [
+        {name: "𝒅𝒊𝒔𝒄𝒐𝒓𝒅", icon: "apps/discord.jpg", id: "@jnicee" },
+        {name: "𝒕𝒊𝒌𝒕𝒐𝒌", icon: "apps/tiktok.avif", id: "@cutiee_jnicee" }
+    ],
+    music: {
+        title: "𝑳𝒐𝒗𝒆",
+        artist: "@𝒌𝒆𝒚𝒔𝒉𝒊𝒂 𝒄𝒐𝒍𝒆",
+        cover: "spotify/icons/jnice.jpg",
+        mp3: "spotify/musics/jnice.mp3",
+        spotify: "https://open.spotify.com/track/0W4NhJhcqKCqEP2GIpDCDq?si=2b0b96773953460d"
+    }
 },{
     dataid: '44',
     image: 'profiles/dongdong1.png',
