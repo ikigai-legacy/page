@@ -30,7 +30,7 @@ const profiles = [{
     }
 },{
     dataid: '2',
-    image: 'profiles/dongdong1.png',
+    image: 'profiles/keign.png',
     name: '𝒊𝒌𝒈_𝒌𝒆𝒊𝒈𝒏',
     dataname: 'ikg_keign',
     role: '𝒇𝒐𝒖𝒏𝒅𝒆𝒓',
@@ -155,7 +155,7 @@ const profiles = [{
     }
 },{
     dataid: '7',
-    image: 'profiles/dongdong1.png',
+    image: 'profiles/saggy.png',
     name: '𝒊𝒌𝒈_𝒔𝒂𝒈𝒈𝒚',
     dataname: 'ikg_saggy',
     role: '𝒎𝒆𝒎𝒃𝒆𝒓',  
@@ -184,23 +184,22 @@ const profiles = [{
     }
 },{
     dataid: '8',
-    image: 'profiles/dongdong2.png',
-    name: '𝒊𝒌𝒈_𝒍𝒖𝒄𝒊𝒐𝒕𝒂𝒏',
-    dataname: 'ikg_luciotan',
+    image: 'profiles/jinx.png',
+    name: '𝒊𝒌𝒈_𝒋𝒊𝒏𝒙',
+    dataname: 'ikg_jinx',
     role: '𝒎𝒆𝒎𝒃𝒆𝒓',
-    birthday: '𝒐𝒄𝒕𝒐𝒃𝒆𝒓 𝟏𝟏',
-    databirthday: '2022-10-11',
-    joined: '𝒂𝒑𝒓𝒊𝒍 𝟐𝟎𝟐𝟒',
-    datajoined: '2024-04-01',
+    birthday: '𝒋𝒂𝒏𝒖𝒂𝒓𝒚 𝟏𝟐',
+    databirthday: '2022-01-12',
+    joined: '𝒋𝒖𝒍𝒚 𝟐𝟎𝟐𝟐',
+    datajoined: '2022-07-01',
     
     games: [
-        {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_luciotan" },
-        {name: "𝒉𝒆𝒂𝒓𝒕𝒐𝒑𝒊𝒂", icon: "apps/Heartopia.webp", id: "UID:64ps3a1a" },
-        {name: "𝒎𝒊𝒏𝒆𝒄𝒓𝒂𝒇𝒕", icon: "apps/minecraft.webp", id: "@luciotan20th" }
+        {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_jinx" },
+        {name: "𝒃𝒖𝒅", icon: "apps/bud.jpg", id: "@jhxna_ikigai" }
     ]
 },{
     dataid: '9',
-    image: 'profiles/dongdong1.png',
+    image: 'profiles/jintar.png',
     name: '𝒊𝒌𝒈_𝒋𝒊𝒏𝒕𝒂𝒓',
     dataname: 'ikg_jintar',
     role: '𝒎𝒆𝒎𝒃𝒆𝒓',
@@ -232,6 +231,33 @@ const profiles = [{
     }
 },{
     dataid: '10',
+    image: 'profiles/kaivor.png',
+    name: '𝒊𝒌𝒈_𝒌𝒂𝒊𝒗𝒐𝒓',
+    dataname: 'ikg_kaivor',
+    role: '𝒎𝒆𝒎𝒃𝒆𝒓',
+    birthday: '𝒐𝒄𝒕𝒐𝒃𝒆𝒓 𝟐𝟑',
+    databirthday: '2022-10-23',
+    joined: '𝒋𝒖𝒍𝒚 𝟐𝟎𝟐𝟐',
+    datajoined: '2022-07-01',
+    
+    games: [
+        {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_kaivor" },
+        {name: "𝒓𝒐𝒃𝒍𝒐𝒙", icon: "apps/roblox.webp", id: "@renzified_0" },
+        {name: "𝒃𝒖𝒅", icon: "apps/bud.jpg", id: "@akashi_ikigai" }
+    ],
+    connections: [
+        {name: "𝒅𝒊𝒔𝒄𝒐𝒓𝒅", icon: "apps/discord.jpg", id: "@rnzsmt_" },
+        {name: "𝒕𝒊𝒌𝒕𝒐𝒌", icon: "apps/tiktok.avif", id: "@rnzsmt" }
+    ],
+    music: {
+        title: "𝑴𝒆𝒓𝒓𝒚 𝑪𝒉𝒓𝒊𝒔𝒕𝒎𝒂𝒔, 𝒊 𝒎𝒊𝒔𝒔 𝒚𝒐𝒖",
+        artist: "@𝒂𝒍𝒆𝒙 𝒄𝒉𝒓𝒊𝒄𝒉𝒕𝒐𝒏",
+        cover: "spotify/icons/kaivor.jpg",
+        mp3: "spotify/musics/kaivor.mp3",
+        spotify: "https://open.spotify.com/track/0XYALktGbnHJ1TdW0Oz5KN?si=c015a3ede4bf41bb"
+    }
+},{
+    dataid: '11',
     image: 'profiles/ben.png',
     name: '𝒊𝒌𝒈_𝒃𝒆𝒏',
     dataname: 'ikg_ben',
@@ -249,7 +275,7 @@ const profiles = [{
         {name: "𝒕𝒊𝒌𝒕𝒐𝒌", icon: "apps/tiktok.avif", id: "@eggyben_" }
     ]
 },{
-    dataid: '11',
+    dataid: '12',
     image: 'profiles/anya.png',
     name: '𝒊𝒌𝒈_𝒂𝒏𝒚𝒂',
     dataname: 'ikg_anya',
@@ -267,7 +293,7 @@ const profiles = [{
         {name: "𝒕𝒊𝒌𝒕𝒐𝒌", icon: "apps/tiktok.avif", id: "@anyadayo02" }
     ]
 },{
-    dataid: '12',
+    dataid: '13',
     image: 'profiles/nene.png',
     name: '𝒊𝒌𝒈_𝒏𝒆𝒏𝒆',
     dataname: 'ikg_nene',
@@ -284,7 +310,7 @@ const profiles = [{
         {name: "𝒕𝒊𝒌𝒕𝒐𝒌", icon: "apps/tiktok.avif", id: "@nenene_98" }
     ]
 },{
-    dataid: '13',
+    dataid: '14',
     image: 'profiles/slurry.png',
     name: '𝒊𝒌𝒈_𝒔𝒍𝒖𝒓𝒓𝒚',
     dataname: 'ikg_slurry',
@@ -299,7 +325,7 @@ const profiles = [{
         {name: "𝒉𝒆𝒂𝒓𝒕𝒐𝒑𝒊𝒂", icon: "apps/Heartopia.webp", id: "UID:7n36211" }
     ]
 },{
-    dataid: '14',
+    dataid: '15',
     image: 'profiles/matrix.png',
     name: '𝒊𝒌𝒈_𝒎𝒂𝒕𝒓𝒊𝒙',
     dataname: 'ikg_matrix',
@@ -319,7 +345,7 @@ const profiles = [{
         {name: "𝒅𝒊𝒔𝒄𝒐𝒓𝒅", icon: "apps/discord.jpg", id: "@cmatrix10" }
     ]
 },{
-    dataid: '15',
+    dataid: '16',
     image: 'profiles/neid.png',
     name: '𝒊𝒌𝒈_𝒏𝒆𝒊𝒅',
     dataname: 'ikg_neid',
@@ -332,20 +358,6 @@ const profiles = [{
     games: [
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_Neid" },
 
-    ]
-},{
-    dataid: '16',
-    image: 'profiles/dongdong1.png',
-    name: '𝒊𝒌𝒈_𝒎𝒐𝒐𝒏𝒊𝒆',
-    dataname: 'ikg_moonie',
-    role: '𝒎𝒆𝒎𝒃𝒆𝒓',
-    birthday: '𝒏𝒐𝒗𝒆𝒎𝒃𝒆𝒓 𝟑',
-    databirthday: '2022-11-03',
-    joined: '𝒂𝒖𝒈𝒖𝒔𝒕 𝟐𝟎𝟐𝟔',
-    datajoined: '2026-08-02',
-    
-    games: [
-        {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_moonie" },
     ]
 },{
     dataid: '17',
@@ -388,6 +400,20 @@ const profiles = [{
     ]
 },{
     dataid: '19',
+    image: 'profiles/moonie.png',
+    name: '𝒊𝒌𝒈_𝒎𝒐𝒐𝒏𝒊𝒆',
+    dataname: 'ikg_moonie',
+    role: '𝒎𝒆𝒎𝒃𝒆𝒓',
+    birthday: '𝒏𝒐𝒗𝒆𝒎𝒃𝒆𝒓 𝟑',
+    databirthday: '2022-11-03',
+    joined: '𝒂𝒖𝒈𝒖𝒔𝒕 𝟐𝟎𝟐𝟔',
+    datajoined: '2026-08-02',
+    
+    games: [
+        {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_moonie" },
+    ]
+},{
+    dataid: '20',
     image: 'profiles/shims.png',
     name: '𝒊𝒌𝒈_𝒔𝒉𝒊𝒎𝒔',
     dataname: 'ikg_shims',
@@ -405,24 +431,6 @@ const profiles = [{
     connections: [
         {name: "𝒅𝒊𝒔𝒄𝒐𝒓𝒅", icon: "apps/discord.jpg", id: "@shims0825" },
         {name: "𝒕𝒊𝒌𝒕𝒐𝒌", icon: "apps/tiktok.avif", id: "@ikg_shims" }
-    ]
-},{
-    dataid: '20',
-    image: 'profiles/ivy.png',
-    name: '𝒊𝒌𝒈_𝒊𝒗𝒚',
-    dataname: 'ikg_ivy',
-    role: '𝒎𝒆𝒎𝒃𝒆𝒓',
-    birthday: '𝒎𝒂𝒚 𝟏𝟖',
-    databirthday: '2022-05-18',
-    joined: '𝒇𝒆𝒃𝒓𝒖𝒂𝒓𝒚 𝟐𝟎𝟐𝟓',
-    datajoined: '2025-02-17',
-    
-    games: [
-        {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_ivy" },
-        {name: "𝒉𝒆𝒂𝒓𝒕𝒐𝒑𝒊𝒂", icon: "apps/Heartopia.webp", id: "UID:1vcm3gtb" }
-    ],
-    connections: [
-        {name: "𝒕𝒊𝒌𝒕𝒐𝒌", icon: "apps/tiktok.avif", id: "@ivyjvaski0" }
     ]
 },{
     dataid: '21',
@@ -511,7 +519,7 @@ const profiles = [{
     ]
 },{
     dataid: '26',
-    image: 'profiles/juswa.png',
+    image: 'profiles/dongdong1.png',
     name: '𝒊𝒌𝒈_𝒋𝒖𝒔𝒘𝒂',
     dataname: 'ikg_juswa',
     role: '𝒎𝒆𝒎𝒃𝒆𝒓',
@@ -913,7 +921,7 @@ const profiles = [{
         {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_Celia" }
     ]
 },{
-    dataid: '51',
+    dataid: '52',
     image: 'profiles/babiijaa.png',
     name: '𝒊𝒌𝒈_𝒃𝒂𝒃𝒊𝒊𝒋𝒂𝒂',
     dataname: 'ikg_babiijaa',
@@ -928,7 +936,7 @@ const profiles = [{
         {name: "𝒎𝒊𝒏𝒆𝒄𝒓𝒂𝒇𝒕", icon: "apps/minecraft.webp", id: "@BabiiJaa26" }
     ]
 },{
-    dataid: '52',
+    dataid: '53',
     image: 'profiles/aisen.png',
     name: '𝒊𝒌𝒈_𝒂𝒊𝒔𝒆𝒏',
     dataname: 'ikg_aisen',
@@ -943,7 +951,7 @@ const profiles = [{
         {name: "𝒎𝒊𝒏𝒆𝒄𝒓𝒂𝒇𝒕", icon: "apps/minecraft.webp", id: "@aisenn3239" }
     ]
 },{
-    dataid: '53',
+    dataid: '54',
     image: 'profiles/nishi.png',
     name: '𝒊𝒌𝒈_𝒏𝒊𝒔𝒉𝒊',
     dataname: 'ikg_nishi',
@@ -954,10 +962,11 @@ const profiles = [{
     datajoined: '2022-07-01',
     
     games: [
-        {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_Nishi" }
+        {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_Nishi" },
+        {name: "𝒃𝒖𝒅", icon: "apps/bud.jpg", id: "@akari_ikigai" }
     ]
 },{
-    dataid: '54',
+    dataid: '55',
     image: 'profiles/miya.png',
     name: '𝒊𝒌𝒈_𝒎𝒊𝒚𝒂',
     dataname: 'ikg_miya',
@@ -978,7 +987,7 @@ const profiles = [{
         {name: "𝒕𝒊𝒌𝒕𝒐𝒌", icon: "apps/tiktok.avif", id: "@shirorex_" }
     ]
 },{
-    dataid: '55',
+    dataid: '56',
     image: 'profiles/habie.png',
     name: '𝒊𝒌𝒈_𝒉𝒂𝒃𝒊𝒆',
     dataname: 'ikg_habie',
@@ -994,35 +1003,8 @@ const profiles = [{
         {name: "𝒃𝒖𝒅", icon: "apps/bud.jpg", id: "@habie_ikigai" }
     ]
 },{
-    dataid: '56',
-    image: 'profiles/dongdong1.png',
-    name: '𝒊𝒌𝒈_𝒌𝒂𝒊𝒗𝒐𝒓',
-    dataname: 'ikg_kaivor',
-    role: '𝒎𝒆𝒎𝒃𝒆𝒓',
-    birthday: '𝒐𝒄𝒕𝒐𝒃𝒆𝒓 𝟐𝟑',
-    databirthday: '2022-10-23',
-    joined: '𝒋𝒖𝒍𝒚 𝟐𝟎𝟐𝟐',
-    datajoined: '2022-07-01',
-    
-    games: [
-        {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_kaivor" },
-        {name: "𝒓𝒐𝒃𝒍𝒐𝒙", icon: "apps/roblox.webp", id: "@renzified_0" },
-        {name: "𝒃𝒖𝒅", icon: "apps/bud.jpg", id: "@akashi_ikigai" }
-    ],
-    connections: [
-        {name: "𝒅𝒊𝒔𝒄𝒐𝒓𝒅", icon: "apps/discord.jpg", id: "@rnzsmt_" },
-        {name: "𝒕𝒊𝒌𝒕𝒐𝒌", icon: "apps/tiktok.avif", id: "@rnzsmt" }
-    ],
-    music: {
-        title: "𝑴𝒆𝒓𝒓𝒚 𝑪𝒉𝒓𝒊𝒔𝒕𝒎𝒂𝒔, 𝒊 𝒎𝒊𝒔𝒔 𝒚𝒐𝒖",
-        artist: "@𝒂𝒍𝒆𝒙 𝒄𝒉𝒓𝒊𝒄𝒉𝒕𝒐𝒏",
-        cover: "spotify/icons/kaivor.jpg",
-        mp3: "spotify/musics/kaivor.mp3",
-        spotify: "https://open.spotify.com/track/0XYALktGbnHJ1TdW0Oz5KN?si=c015a3ede4bf41bb"
-    }
-},{
     dataid: '57',
-    image: 'profiles/dongdong1.png',
+    image: 'profiles/wabam.png',
     name: '𝒊𝒌𝒈_𝒘𝒂𝒃𝒂𝒎',
     dataname: 'ikg_wabam',
     role: '𝒎𝒆𝒎𝒃𝒆𝒓',
@@ -1430,7 +1412,7 @@ const profiles = [{
     datajoined: '2024-09-01',
 
     games: [
-        {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_moon" },
+        {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_moon" }
     ]
 },{
     dataid: '86',
@@ -1444,7 +1426,7 @@ const profiles = [{
     datajoined: '2024-09-01',
 
     games: [
-        {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_LiTbErAr" },
+        {name: "𝒆𝒈𝒈𝒚 𝒑𝒂𝒓𝒕𝒚", icon: "apps/eggyparty.png", id: "@ikg_LiTbErAr" }
     ]
 }];
 

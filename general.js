@@ -96,3 +96,61 @@ function closeMenu() {
         document.documentElement.classList.remove("no-scroll");
         document.body.classList.remove("no-scroll");
 }
+
+// =========================
+// JOIN MODAL
+// =========================
+
+const joinModal = document.querySelector(".modal-join");
+const joinClose = joinModal.querySelector(".modal-close");
+
+// All buttons that should open the Join modal
+const joinButtons = document.querySelectorAll(".join-trigger");
+
+
+// OPEN MODAL
+joinButtons.forEach(button => {
+
+    button.addEventListener("click", () => {
+
+        joinModal.classList.add("open");
+
+        document.documentElement.classList.add("no-scroll");
+        document.body.classList.add("no-scroll");
+
+    });
+
+});
+
+
+// CLOSE MODAL
+function closeJoinModal(){
+
+    joinModal.classList.remove("open");
+
+    document.documentElement.classList.remove("no-scroll");
+    document.body.classList.remove("no-scroll");
+
+}
+
+joinClose.addEventListener("click", closeJoinModal);
+
+
+// CLICK OUTSIDE MODAL
+joinModal.addEventListener("click", (e) => {
+
+    if(e.target === joinModal){
+        closeJoinModal();
+    }
+
+});
+
+
+// ESC KEY
+document.addEventListener("keydown", (e) => {
+
+    if(e.key === "Escape" && joinModal.classList.contains("open")){
+        closeJoinModal();
+    }
+
+});

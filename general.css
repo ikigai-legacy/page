@@ -50,8 +50,33 @@ body {
     margin-left: auto;
 }
 
+.join-end {
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+    min-width: 74px;
+    font-family: sans-serif;
+    background-color: transparent;
+    color: #777;
+    border: 1px solid #222;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.join-end:hover {
+    color: #111111;
+    background-color: #dfdfdf;
+    border-color: #dfdfdf;
+    box-shadow: 0 0 10px #777;
+}
+
 @media screen and (max-width: 850px){
-    .nav-buttons a{
+    .nav-buttons a, .join-end{
         display: none;
     }
     .menu-container .menu-btn{
@@ -186,25 +211,25 @@ nav a:hover{
 
 
 
-.join {
+.join-menu {
     font-size: 13px;
     font-weight: 600;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 34px;
+    height: 100%;
     min-width: 74px;
     font-family: sans-serif;
     background-color: transparent;
     color: #777;
-    border: 1px solid #222;
+    border: 1px solid #111;
+    border-bottom: 1px solid #222;
     text-decoration: none;
-    border-radius: 5px;
     cursor: pointer;
     transition: .5s ease;
 }
 
-.join:hover {
+.join-menu:hover {
     color: #111111;
     background-color: #dfdfdf;
     border-color: #dfdfdf;
@@ -229,6 +254,283 @@ nav a:hover{
     color: #dfdfdf ;
     text-shadow: 0 0 10px #dfdfdf
 }
+
+
+
+/* =========================
+   JOIN MODAL
+========================= */
+
+.modal-join{
+    position: fixed;
+    inset: 0;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+    box-sizing: border-box;
+
+    background: rgba(0, 0, 0, .75);
+
+    z-index: 999;
+}
+
+.modal-join.open{
+    display: flex;
+}
+
+
+/* =========================
+   MODAL WINDOW
+========================= */
+
+.modal-join .modal-window{
+    width: 100%;
+    max-width: 550px;
+    max-height: 85vh;
+
+    display: flex;
+    flex-direction: column;
+
+    background: #141414;
+    border: 1px solid #444;
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    box-shadow: 0 15px 50px rgba(0,0,0,.6);
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.modal-join .modal-header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding: 20px;
+
+    border-bottom: 1px solid #222;
+}
+
+.modal-join .modal-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-join .modal-title{
+    color: white;
+    font-size: 1.1rem;
+}
+
+.modal-join .modal-desc{
+    color: #777;
+    font-size: .75rem;
+    margin-top: 5px;
+}
+
+
+/* CLOSE BUTTON */
+
+.modal-join .modal-close{
+    width: 32px;
+    height: 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    background: transparent;
+
+    color: #777;
+
+    font-size: 24px;
+
+    cursor: pointer;
+
+    transition: .3s ease;
+}
+
+.modal-join .modal-close:hover{
+    color: white;
+    text-shadow: 0 0 10px rgba(232,208,138,.4);
+}
+
+
+/* =========================
+   CONTENT
+========================= */
+
+.modal-join .modal-viewer{
+    padding: 20px;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+/* Scrollbar */
+
+.modal-join .modal-viewer::-webkit-scrollbar{
+    width: 5px;
+}
+
+.modal-join .modal-viewer::-webkit-scrollbar-thumb{
+    background: #777;
+    border-radius: 999px;
+}
+
+.modal-join .modal-viewer::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+
+/* =========================
+   RULES
+========================= */
+
+.join-rules{
+    display: flex;
+    flex-direction: column;
+}
+
+.join-rule{
+    padding: 14px 0;
+
+    border-bottom: 1px solid #222;
+}
+
+.join-rule:first-child{
+    padding-top: 0;
+}
+
+.rule-title{
+    color: #ffffff;
+    font-size: .85rem;
+    margin-bottom: 5px;
+}
+
+.rule-desc{
+    color: #777;
+    font-size: .75rem;
+    line-height: 1.5;
+}
+
+
+/* =========================
+   JOIN BUTTON
+========================= */
+
+.join-actions{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.join-edit,
+.join-confirm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 150px;
+    height: 36px;
+
+    padding: 0 16px;
+    box-sizing: border-box;
+
+    border-radius: 6px;
+
+    text-decoration: none;
+
+    font-size: .75rem;
+    font-weight: 600;
+
+    transition: .3s ease;
+}
+
+
+/* Canva button */
+.join-edit{
+    color: #777;
+    background: transparent;
+    border: 1px solid #222;
+}
+
+.join-edit:hover{
+    color: #111111;
+    background: white;
+    border-color: white;
+    box-shadow: 0 0 10px white;
+    transition: .3s ease;
+}
+
+
+/* Join button */
+.join-confirm{
+    color: #111111;
+    background: white;
+    border: 1px solid white;
+}
+
+.join-confirm:hover{
+    box-shadow: 0 0 10px white;
+    transition: .3s ease;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media screen and (max-width: 500px){
+
+    .modal-join{
+        padding: 12px;
+    }
+
+    .modal-join .modal-window{
+        max-height: 90vh;
+    }
+
+    .modal-join .modal-header{
+        padding: 15px;
+    }
+
+    .modal-join .modal-viewer{
+        padding: 15px;
+    }
+
+    .modal-join .modal-title{
+        font-size: 1rem;
+    }
+
+    .join-edit,
+    .join-confirm{
+        width: 100%;
+    }
+
+    .join-actions{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Page Styles */
 
